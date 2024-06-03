@@ -23,7 +23,7 @@
         android:src="@drawable/checkmark_circle" />
 
     <Button
-        android:id="@+id/LoginButton"
+        android:id="@+id/loginButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_below="@id/checkIcon"
