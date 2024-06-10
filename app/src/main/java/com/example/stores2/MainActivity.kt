@@ -1,11 +1,13 @@
 package com.example.stores2
 
-import com.example.stores2.RegisterActivity
-import com.example.stores2.LoginActivity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.stores2.LoginActivity
+import com.example.stores2.RegisterActivity
+
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,12 +25,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
 class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
     }
 }
+
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

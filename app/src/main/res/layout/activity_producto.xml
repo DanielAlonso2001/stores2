@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+     
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tienda Online" />
+
+        <Button
+            android:id="@+id/button_go_to_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Cart" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+  
+        <ImageView
+            android:id="@+id/image_new_balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/new_balance_sneakers" />
+
+        <TextView
+            android:id="@+id/text_new_balance_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Balance" />
+
+        <TextView
+            android:id="@+id/text_new_balance_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COP $140.999" />
+
+        
+        <ImageView
+            android:id="@+id/image_nike_air_jordan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nike_air_jordan" />
+
+        <TextView
+            android:id="@+id/text_nike_air_jordan_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nike Air Jordan" />
+
+        <TextView
+            android:id="@+id/text_nike_air_jordan_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COP $80.000" />
+
+    
+        <ImageView
+            android:id="@+id/image_rubiks_cube"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rubiks_cube" />
+
+        <TextView
+            android:id="@+id/text_rubiks_cube_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cubo Rubik" />
+
+        <TextView
+            android:id="@+id/text_rubiks_cube_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COP $80.000" />
+
+        
+        <ImageView
+            android:id="@+id/image_gaming_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gaming_keyboard" />
+
+        <TextView
+            android:id="@+id/text_gaming_keyboard_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teclado Gamers" />
+
+        <TextView
+            android:id="@+id/text_gaming_keyboard_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COP $350.999" />
+    </LinearLayout>
+</LinearLayout>
