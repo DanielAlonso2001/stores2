@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#00FF83"
-    tools:context=".MainActivity">
+    tools:context=".RegisterActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="350dp"
