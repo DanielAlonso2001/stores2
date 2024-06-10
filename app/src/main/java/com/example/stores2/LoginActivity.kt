@@ -1,5 +1,7 @@
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.stores2.R
 
@@ -9,11 +11,11 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
- /*      val menuButton: Button = findViewById(R.id.menuButton)
+        val menuButton: Button = findViewById(R.id.menuButton)
 
         menuButton.setOnClickListener {
             val intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
-        }*/
+        }
     }
 }
